@@ -1,9 +1,8 @@
 a = int(input())
 b = int(input())
 c = int(input())
-if a == b == c:
-    print(3)
-elif a == b or b == c or a == c:
-    print(2)
+d = int(input())
+if abs(c - a) <= 1 and abs(d - b) <= 1:
+    print('YES')
 else:
-    print(0)
+    print('NO')
